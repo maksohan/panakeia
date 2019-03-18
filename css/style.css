@@ -1,0 +1,287 @@
+/*Global css*/
+body{
+	font-family: 'Roboto Slab', serif;
+}
+.img-center{
+	display: block;
+	margin:0 auto;
+}
+
+/* Navigation Menu */
+.navbar-default {
+    background-color: #edeff1;
+    border-color: #edeff1;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 25px;
+    padding: 7px 20px;
+    margin-top: 9px;
+}
+.logo{
+	margin: -10px 0px;
+    width: 75%;
+}
+
+
+/*Home section*/
+
+.home-section{
+	background: url(../images/banner.png);
+	background-size: 100% 100%;
+
+}
+.home-section h1{
+	color:#fff;
+	font-size: 44px;
+	padding-top: 190px;
+	font-weight: 400;
+}
+.home-section h4{
+	color:#fff;
+	font-weight: 400;
+}
+.home-info{
+	padding:45px 0px;
+}
+.home-info h2{
+	font-size: 25px;
+	font-weight: 400;
+	color:#fff;
+}
+.home-info p{
+	color:#fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+.btn-rdmore{
+	background: #fff;
+	color:#612316;
+	border-radius: 25px;
+	transition:0.5s;
+}
+.btn-rdmore:hover{
+    background: #dd4b2b;
+	color:#fff;
+	transition:0.5s;
+	border:2px solid #fff;
+	cursor: pointer;
+}
+
+/* Newsletter section */
+.news-info{
+	padding-top:50px;
+}
+.news-info p{
+	line-height: 25px;
+}
+.form-control{
+	background: transparent;
+	color:#fff;
+	border-radius: 25px !important;
+    margin: 20px 20px !important;
+}
+.input-group .form-control {
+    position: initial;
+    z-index: 0;
+ }
+.input-group-btn:last-child>.btn, 
+.input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -20px;
+    border-radius: 25px;
+    padding: 6px 21px;
+}
+
+/* Service Section */
+.service-section h1{
+	color:#fff;
+}
+.service-section p{
+	width:50%;
+	margin:0 auto;
+	color:#fff;
+}
+.newsletter-bg{
+	background: url(../images/footer.png)no-repeat;
+	background-size: cover;
+}
+.opc-bg{
+	background:rgba(0,0,0,.5);
+	padding:30px 0px;
+}
+
+/* Portfolio Section */
+
+.portfolio-info-left h1{
+ 	font-size: 36px;
+ 	font-weight: 700;
+ 	padding-top: 50px;
+}
+.portfolio-info-left p{
+ 	line-height: 25px;
+}
+.btn-signup{
+	padding: 6px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #dd4b2b;
+    color: #fff;
+}
+.btn-signup:hover{
+	border:2px solid #fff;
+	box-shadow: 1px 2px 3px #333;
+	transition:0.5s;
+}
+
+
+.food-image-right{
+    margin: 0 41px;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-image-right img:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);	
+	transition:0.5s;
+	-webkit-transform: 0.5s;
+	-moz-transform: 0.5s;
+	-o-transform: 0.5s;
+}
+
+.food-img{
+	padding: 40px 15px;
+}
+.portfolio-info-right h1{
+ 	font-size: 36px;
+ 	font-weight: 700;
+ 	padding-top: 50px;
+}
+.portfolio-info-right p{
+ 	line-height: 25px;
+}
+.btn-signup{
+	padding: 6px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #dd4b2b;
+    color: #fff;
+}
+.btn-signup:hover{
+	border:2px solid #fff;
+	box-shadow: 1px 2px 3px #333;
+	transition:0.5s;
+}
+
+
+.food-image-left{
+    margin: 0 41px;
+    position: relative;
+    overflow: hidden;
+}
+.food-image-left img:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);	
+	transition:0.5s;
+	-webkit-transform: 0.5s;
+	-moz-transform: 0.5s;
+	-o-transform: 0.5s;
+}
+
+/* Footer Section */
+.contact-section-info{
+	background-color: #d75d0e;
+	padding: 20px 0px;
+}
+.contact-section ul{
+	list-style: none;
+}
+.contact-section ul li{
+	line-height: 25px;
+	color:#fff;
+}
+.footer-bg{
+	background: url(../images/footer.png)no-repeat;
+	background-size: cover;
+	padding:50px 0px;
+}
+.footer-bg h5{
+	color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 20px 0px;
+}
+
+/* Media Query CSS */
+
+@media screen and (max-width: 480px){
+	.home-section{
+		background-size: cover;
+	}
+	.home-section h1 {
+	    font-size: 30px;
+	    padding-top: 50px;
+	}
+	.home-info h2 {
+	    font-size: 23px;
+	}
+	.btn-rdmore {
+	    margin-bottom: 20px;
+	}
+	.service-section p {
+	    width: 75%;
+	}
+	.portfolio-info-left h1 {
+		padding-top: 0px;
+	}
+	.btn-signup {
+	    margin-bottom: 20px;
+	}
+}
+
+@media (min-width:480px) and (max-width:768px){
+
+	.home-section {
+		padding:0px;
+	    background-size: cover;
+	}
+	.home-section h1 {
+		padding-top: 150px;
+	    font-size: 38px;
+	}
+	.home-info {
+	    padding: 0px 0px;
+	}
+	.home-info p {
+	    width: 65%;
+	    margin: 0 auto;
+	    line-height: 25px;
+	    padding-bottom: 20px;
+	}
+	.home-btn{
+		padding-bottom: 20px;
+	}
+	.about-section {
+	    padding:0px;
+	}
+	.food-pic{
+		display: block;
+		margin:0 auto;
+	}
+	.news-info p {
+	    width: 70%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.news-btn{
+		padding-bottom: 20px;
+	}
+
+}
