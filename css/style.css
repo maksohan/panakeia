@@ -12,13 +12,15 @@ body{
     background-color: #edeff1;
     border-color: #edeff1;
 }
-.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a {
+	color: #fff;
+    padding: 7px 20px;
+}
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #dd4b2b;
     border-radius: 25px;
-    padding: 7px 20px;
 }
 .navbar-right {
 	margin-top: 10px;
