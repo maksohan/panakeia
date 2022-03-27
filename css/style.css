@@ -19,9 +19,10 @@ body{
     background-color: #dd4b2b;
     border-radius: 25px;
     padding: 7px 20px;
-    margin-top: 9px;
 }
-
+.navbar-right {
+	margin-top: 10px;
+}
 /*Home section*/
 
 .home-section{
